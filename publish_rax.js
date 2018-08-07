@@ -8,7 +8,10 @@ const pkg = JSON.parse(fs.readFileSync(pkgPath, { encoding: 'utf-8' }))
 const importStatement = `var React = require('react');`
 const rax = `var React = require('rax');`
 
-const mainScript = path.resolve(__dirname, pkg.main)
+const mainScript = path.resolve(
+  __dirname,
+  pkg.browser['./dist/styled-components.cjs.js']
+)
 let mainContent = fs.readFileSync(mainScript, { encoding: 'utf-8' })
 
 mainContent = mainContent.replace(importStatement, rax)
