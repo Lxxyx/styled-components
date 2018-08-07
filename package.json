@@ -1,5 +1,5 @@
 {
-  "name": "styled-components",
+  "name": "rax-styled-components",
   "version": "3.4.1",
   "description": "Visual primitives for the component age. Use the best bits of ES6 and CSS to style your apps without stress 💅",
   "typings": "typings/styled-components.d.ts",
@@ -14,7 +14,7 @@
     "./dist/styled-components-no-parser.cjs.js": "./dist/styled-components-no-parser.browser.cjs.js"
   },
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && node publish_rax.js",
     "prebuild": "rimraf dist",
     "test": "run-s test:*",
     "test:web": "jest --outputFile test-results.json --json",
