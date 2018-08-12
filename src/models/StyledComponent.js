@@ -2,7 +2,7 @@
 
 import hoist from 'hoist-non-react-statics'
 import PropTypes from 'prop-types'
-import { Component, createElement } from 'rax'
+import { Component, createElement } from 'react'
 import { CONTEXT_KEY } from '../constants'
 import createWarnTooManyClasses from '../utils/createWarnTooManyClasses'
 import determineTheme from '../utils/determineTheme'

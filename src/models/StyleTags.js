@@ -2,7 +2,7 @@
 /* eslint-disable flowtype/object-type-delimiter */
 /* eslint-disable react/prop-types */
 
-import React, { type Element } from 'rax'
+import React, { type Element } from 'react'
 import { IS_BROWSER, DISABLE_SPEEDY, SC_ATTR } from '../constants'
 import StyledError from '../utils/error'
 import { type ExtractedComp } from '../utils/extractCompsFromCSS'
