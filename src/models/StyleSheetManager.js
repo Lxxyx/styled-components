@@ -1,5 +1,5 @@
 // @flow
-import React, { Component } from 'react'
+import React, { Component } from 'rax'
 import PropTypes from 'prop-types'
 import StyleSheet from './StyleSheet'
 import ServerStyleSheet from './ServerStyleSheet'

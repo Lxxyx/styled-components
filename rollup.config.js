@@ -167,6 +167,13 @@ const nativeConfig = Object.assign({}, configBase, {
   }),
 })
 
+const weexConfig = Object.assign({}, configBase, {
+  input: './src/weex/index.js',
+  output: getCJS({
+    file: 'dist/styled-components.weex.cjs.js',
+  }),
+})
+
 const primitivesConfig = Object.assign({}, configBase, {
   input: './src/primitives/index.js',
   output: [
@@ -221,6 +228,7 @@ export default [
   browserConfig,
   browserProdConfig,
   nativeConfig,
+  weexConfig,
   primitivesConfig,
   noParserConfig,
   noParserBrowserConfig,

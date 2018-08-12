@@ -1,5 +1,5 @@
 // @flow
-import { cloneElement } from 'react'
+import { cloneElement } from 'rax'
 import {
   IS_BROWSER,
   DISABLE_SPEEDY,

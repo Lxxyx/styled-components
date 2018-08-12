@@ -1,6 +1,6 @@
 // @flow
 /* eslint-disable no-underscore-dangle */
-import React from 'react'
+import React from 'rax'
 import stream from 'stream'
 
 import { IS_BROWSER, SC_STREAM_ATTR } from '../constants'

@@ -8624,6 +8624,16 @@ unique-string@^1.0.0:
   dependencies:
     crypto-random-string "^1.0.0"
 
+universal-env@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.npmjs.org/universal-env/-/universal-env-0.6.4.tgz#b0aa5df32f8ad2dabc2ee448ee2716bd0ac89107"
+
+universal-stylesheet@^0.6.4:
+  version "0.6.4"
+  resolved "https://registry.npmjs.org/universal-stylesheet/-/universal-stylesheet-0.6.4.tgz#873ee0aae7cb43e1d0816db6655aed88b1cd4f00"
+  dependencies:
+    universal-env "^0.6.4"
+
 universalify@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"

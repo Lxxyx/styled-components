@@ -1,5 +1,6 @@
 // @flow
-import React, { Component, type Element } from 'react'
+import React, { Component } from 'rax'
+import { type Element } from 'react'
 import PropTypes from 'prop-types'
 import createBroadcast from '../utils/create-broadcast'
 import type { Broadcast } from '../utils/create-broadcast'

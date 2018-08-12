@@ -1,6 +1,6 @@
 // @flow
 import hoist from 'hoist-non-react-statics'
-import { Component, createElement } from 'react'
+import { Component, createElement } from 'rax'
 import determineTheme from '../utils/determineTheme'
 import { EMPTY_OBJECT } from '../utils/empties'
 import generateDisplayName from '../utils/generateDisplayName'

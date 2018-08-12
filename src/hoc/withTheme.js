@@ -1,5 +1,6 @@
 // @flow
-import React, { type ComponentType } from 'react'
+import React from 'rax'
+import { type ComponentType } from 'react'
 import hoistStatics from 'hoist-non-react-statics'
 import { CHANNEL_NEXT, contextShape } from '../models/ThemeProvider'
 import { EMPTY_OBJECT } from '../utils/empties'

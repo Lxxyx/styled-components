@@ -14,7 +14,7 @@
     "./dist/styled-components-no-parser.cjs.js": "./dist/styled-components-no-parser.browser.cjs.js"
   },
   "scripts": {
-    "build": "rollup -c && node publish_rax.js",
+    "build": "rollup -c",
     "prebuild": "rimraf dist",
     "test": "run-s test:*",
     "test:web": "jest --outputFile test-results.json --json",
@@ -78,6 +78,7 @@
     "fbjs": "^0.8.16",
     "hoist-non-react-statics": "^2.5.0",
     "prop-types": "^15.5.4",
+    "rax": "^0.6.4",
     "react-is": "^16.3.1",
     "stylis": "^3.5.0",
     "stylis-rule-sheet": "^0.0.10",
