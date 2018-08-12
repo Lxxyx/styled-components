@@ -19,6 +19,7 @@ mainContent = mainContent.replace(importStatement, rax)
 fs.writeFileSync(mainScript, mainContent, { encoding: 'utf-8' })
 
 if (fs.readFileSync(mainScript, { encoding: 'utf-8' }).includes(rax)) {
+  console.log('')
   console.log(`生成Rax版本成功`)
 } else {
   throw new Error('错误')
